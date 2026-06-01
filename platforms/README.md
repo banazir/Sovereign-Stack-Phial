@@ -19,5 +19,8 @@ This directory contains the foundational system instructions for deploying the S
 | `platforms/perplexity/` | Perplexity AI | Pro / Enterprise Space | 2 | **Research Architect Node.** An automated ontology sandbox and deep retrieval agent used for mapping external market shifts, competitive intelligence, and structural threat data. |
 | `platforms/copilot/` | Multi-Platform | Free Tier / Standard Enterprise | 2 | **Ambient Workflow Copilot.** Decoupled from M365 to support standard enterprise AI endpoints (Gemini, ChatGPT, or built-in IDE/browser tools). Acts as an on-the-fly syntax formatter and micro-task executor. |
 
+### ⚠️ A Note on Tier 0 (The Sandbox Layer)
+You will notice the manifest table begins at Tier 1. Tier 0 is explicitly omitted from the deployed architecture. Tier 0 represents the unconstrained, human-in-the-loop engineering sandbox (this meta-architecture thread) where new defensive protocols are drafted, tested, and compiled before being pushed down to the enforcement layers. Tier 0 operates completely outside the Odysseus Protocol to ensure absolute R&D agility.
+
 ---
 *For self-hosted, open-weight deployments, refer to the advanced architectural documentation (Not included in the Phial release).*
