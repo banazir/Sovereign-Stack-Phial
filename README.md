@@ -1,5 +1,5 @@
 ---
-document_version: "1.1"
+document_version: "1.2"
 last_updated_date: "2026-07-21"
 document_monotonicity: "REQUIRED - Ensure document_version and timestamps strictly increment on every update. Reject regressions."
 heuristic_versioning: "REQUIRED - Heuristic versions (vX.Y) in the headings must ALWAYS be incremented INDEPENDENTLY."
@@ -8,7 +8,7 @@ routing_clearance: "PUBLIC REFERENCE - APPROVED FOR ALL NODES"
 ---
 # The Sovereign Stack (Phial Edition)
 
-**Version:** 1.1-open
+**Version:** 1.2-open
 **Status:** PUBLIC REFERENCE ARCHITECTURE
 **Purpose:** An open-architecture cognitive exoskeleton and telemetry routing system for high-concurrency professionals and technical leaders.
 
@@ -24,10 +24,11 @@ It operates as a series of Large Language Model (LLM) nodes configured as rigid 
 
 ## 2. Core Architectural Principles
 
+*  **Agile Adaptation:** *Human-in-the-loop (HITL)* is an operational architecture where a process requires human interaction, review, or authorization at specific, hard-coded decision gates before the system is permitted to continue executing.  This design allows a single user to dynamically scale their toolchain. When a process is new or highly ambiguous, the Stack operates in a High-HITL state (using commercial off-the-shelf LLMs where the user manually guides and connects the outputs). As the user solidifies the process, they can write deterministic code or deploy self-hosted open-weight agents to handle it. The architecture seamlessly transitions to a Low-HITL state, where the system executes autonomously on local hardware, and the human operator is only required for high-level approvals or final validation checks.
 *   **Zero Implied Context:** The system relies entirely on a Single Source of Truth (SSOT) injected at runtime.
 *   **Asymmetric Resource Allocation:** Compute and cognitive effort are mathematically matched to the incoming vector. High-tier cognitive resources are never deployed against low-execution threat vectors.
 *   **Subjectivity as a Vector, Not a Variable:** Urgency, administrative pressure, and subjective framing are treated as "Hostile System Interference," to be mechanically stripped from the decision-making graph to reveal the underlying structural requirement.
-*   **WORM Memory Buffers:** Load-bearing operational frameworks and routing invariants are stored in Write-Once, Read-Many (WORM) files to prevent downstream nodes from autonomously altering their own constraints.
+*   **Write-Once, Read-Many (WORM) Memory Buffers:** Load-bearing operational frameworks and routing invariants are stored in Write-Once, Read-Many (WORM) files to prevent downstream nodes from autonomously altering their own constraints.
 
 ## 3. State Management: The Blackboard Paradigm
 
