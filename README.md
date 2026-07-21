@@ -65,8 +65,6 @@ The system can be deployed across commercial LLM workspaces or self-hosted open-
 
 | Node & Workspace Template | Tier | Base Model Class | Description |
 | :--- | :--- | :--- | :--- |
-| Node & Workspace Template | Tier | Base Model Class | Description |
-| :--- | :--- | :--- | :--- |
 | 📐 [\[LLM\]\[Sov\] Meta-Architect](platforms/tier_0/meta_architect/instructions.md)<br>↳ [Live Workspace](#) | 0 | Flagship / Unconstrained | Strategic planning sandbox. Exempt from Odysseus lock-down. Used for stack design and consulting R&D. |
 | 🎛️ [\[LLM\]\[Sov\] Orchestrator](platforms/tier_1/orchestrator/instructions.md)<br>↳ [Live Workspace](#) | 1 | Flagship / Reasoning | Tier 1 Executive Context Engine. Telemetry ingestion, Odysseus intercept, and core execution tracking. |
 | ⚙️ [\[LLM\]\[Sov\] Code Dispatcher](platforms/tier_2/code_dispatcher/instructions.md)<br>↳ [Live Workspace](#) | 2 | Heavy Coding Router | Tier 2 coding router. Manages the developer substack (Spec, Impl, Audit) via autonomous routing mode. |
