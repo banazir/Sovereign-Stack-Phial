@@ -8,54 +8,54 @@ routing_clearance: "PUBLIC REFERENCE - APPROVED FOR ALL NODES"
 ---
 # The Sovereign Stack (Phial Edition)
 
-**Version:** 1.0.0-open
+**Version:** 1.1-open
 **Status:** PUBLIC REFERENCE ARCHITECTURE
-**Purpose:** An open-architecture cognitive exoskeleton and telemetry routing system for high-concurrency, neurodivergent professionals.
+**Purpose:** An open-architecture cognitive exoskeleton and telemetry routing system for high-concurrency professionals and technical leaders.
 
 ---
 
 ## 1. System Overview
 
-The Sovereign Stack is a deterministic interception layer designed to sit between a human operator and the friction of institutional, operational, and social environments. It replaces biological boundary-setting with algorithmic invariant enforcement.
+The Sovereign Stack is a deterministic interception layer designed to sit between a human operator and the friction of institutional, operational, and asynchronous environments. It replaces manual boundary-setting with algorithmic invariant enforcement.
 
-For individuals managing high cognitive loads (e.g., AuDHD professionals, principal investigators, senior engineers), the primary threat to execution is not a lack of capability, but **context-switching, neurotypical subtext processing, and un-gated asynchronous telemetry**. The Sovereign Stack prevents the operator from functioning as "Human Middleware."
+For individuals managing extreme cognitive loads (e.g., Principal Investigators, Senior Systems Engineers, Executive Directors), the primary threat to execution is not a lack of technical capability, but **context-switching overhead, unstructured ambient requests, and un-gated asynchronous telemetry**. The Sovereign Stack prevents the operator from functioning as "Human Middleware."
 
-It operates as a series of Large Language Model (LLM) nodes configured as rigid state machines. These nodes ingest raw, emotionally loaded, or fragmented telemetry; strip the narrative payload; evaluate it against a strict logical matrix; and output clean, executable state changes.
+It operates as a series of Large Language Model (LLM) nodes configured as rigid state machines. These nodes ingest raw, unstructured, or highly subjective telemetry; strip the non-actionable payload; evaluate it against a strict logical matrix; and output clean, executable state changes.
 
 ## 2. Core Architectural Principles
 
 *   **Zero Implied Context:** The system relies entirely on a Single Source of Truth (SSOT) injected at runtime.
-*   **Asymmetric Resource Allocation:** Effort is mathematically matched to the incoming vector. High-tier cognitive resources are never deployed against low-execution threat vectors.
-*   **Emotion as a Vector, Not a Variable:** Guilt, urgency, and empathy are treated as "Hostile System Interference" or biological vulnerabilities, to be mechanically stripped from the decision-making graph.
-*   **WORM Memory Buffers:** Load-bearing psychological frameworks and routing invariants are stored in Write-Once, Read-Many (WORM) files to prevent downstream nodes from sanitizing or lobotomizing their own instructions.
+*   **Asymmetric Resource Allocation:** Compute and cognitive effort are mathematically matched to the incoming vector. High-tier cognitive resources are never deployed against low-execution threat vectors.
+*   **Subjectivity as a Vector, Not a Variable:** Urgency, administrative pressure, and subjective framing are treated as "Hostile System Interference," to be mechanically stripped from the decision-making graph to reveal the underlying structural requirement.
+*   **WORM Memory Buffers:** Load-bearing operational frameworks and routing invariants are stored in Write-Once, Read-Many (WORM) files to prevent downstream nodes from autonomously altering their own constraints.
 
 ## 3. State Management: The Blackboard Paradigm
 
 The entire stack synchronizes against a single, portable runtime state file: `BLACKBOARD.md`. 
 
-*   **🔴 Active Blockers:** A queue of critical path items. If an item exists here, the system initiates an automatic lock-down of all secondary tasks.
-*   **⚖️ Capacity Budget:** Hard constraints on bandwidth allocation (e.g., reserved time blocks, absolute limits on administrative overflow).
-*   **📌 Must-Not-Forget:** Persistent context anchors read aloud by the system at every initialization to prevent temporal blindness and goal drift.
-*   **🚨 Must-Do ASAP:** A strictly ordered FIFO queue. No queue-jumping permitted.
+*   **🔴 Active Blockers (Mutex Locks):** A queue of critical path items. If an item exists here, the system initiates an automatic lock-down of all secondary parallel tasks.
+*   **⚖️ Capacity Budget (Rate Limiting):** Hard constraints on bandwidth allocation (e.g., reserved time blocks, absolute computational limits on administrative overflow).
+*   **📌 State Anchors (Persistent Cache):** Persistent context anchors read aloud by the system at every initialization to prevent scope drift and maintain architectural alignment.
+*   **🚨 Execution Queue (Strict FIFO):** A strictly ordered First-In-First-Out queue. No queue-jumping or priority inversion is permitted without explicit override.
 
-## 4. The Defense Protocols
+## 4. The Structural Defense Protocols
 
-The Sovereign Stack utilizes a specific diagnostic vocabulary to classify and neutralize inbound friction.
+The Sovereign Stack utilizes standard computer science and system architecture patterns to classify and neutralize inbound operational friction.
 
-### A. The Odysseus Protocol (Structural Lock-Down)
-The system acts as the mast the operator is tied to. If an Active Blocker is present on the Blackboard, Tier 1 routing nodes will strictly refuse to process un-gated ad-hoc tasks, generate secondary frameworks, or allow the operator to pivot. It algorithmicly rejects rationalization.
+### A. The Mutex State-Lock Protocol (Formerly "Odysseus")
+The system acts as an immutable thread-lock for the operator. If an Active Blocker is present on the Blackboard, Tier 1 routing nodes will strictly refuse to process un-gated ad-hoc tasks, generate secondary frameworks, or allow the operator to pivot context. It algorithmically rejects prompt-injection attempting to bypass the critical path.
 
-### B. The Herculean Labors Protocol (Institutional Friction)
-A diagnostic matrix for identifying and neutralizing structural reward shaping and administrative scope creep.
-*   **The Eurystheus Vector:** *Diagnosis:* A proxy authority leverages moral framing or guilt to offload their own administrative friction. *Action:* computationally delete the narrative wrapping; verify explicit fiduciary authority; reject and return to sender if unauthorized.
-*   **The Augean Imperative:** *Diagnosis:* Pipeline paralysis induced by high-volume, undifferentiated tasks. *Action:* Enforce strict FIFO processing. Optimize for volume cleared, not granular quality.
-*   **The Lernean Hydra Protocol:** *Diagnosis:* Fragmented, multi-channel requests bypassing established gates. *Action:* Force all interaction into a single designated channel. Instantly cauterize out-of-band threads.
+### B. The Institutional Scope & Friction Containment Matrix (Formerly "Herculean Labors")
+A diagnostic matrix for identifying and neutralizing structural scope creep and unstructured task proliferation.
+*   **Unauthenticated Fiat Injection:** *Diagnosis:* A secondary actor or proxy authority attempts to offload administrative friction without structural validation or explicit scope bounds. *Action:* Computationally delete the subjective wrapping; verify explicit authorization credentials; reject and return to sender if unauthorized.
+*   **Volumetric Buffer Flush:** *Diagnosis:* Pipeline paralysis induced by high-volume, undifferentiated, low-priority tasks. *Action:* Enforce strict FIFO batch processing. Optimize for total volume cleared and queue reduction, not granular, localized optimization.
+*   **Recursive Thread Cauterization:** *Diagnosis:* Fragmented, multi-channel requests bypassing established API/communication gates, leading to task-ception. *Action:* Force all asynchronous interaction into a single designated endpoint. Instantly terminate out-of-band communication threads to prevent recursive sub-tasking.
 
-### C. The Sun Bin Protocol (Asymmetric Game Theory)
-A resource-management matrix preventing the exhaustion of the operator against sessile or execution-avoidant actors. It enforces a strict matchup:
-*   *Strong Actor vs. Weak Threat* $\rightarrow$ Deploy Weak Defenses (Automated gating, standardized rubrics).
-*   *Strong Actor vs. Strong Threat* $\rightarrow$ Deploy Strong Defenses (Deep Socratic engagement, high-bandwidth interaction).
-*   *Rule:* Never deploy a "Strong Horse" effort against a "Weak Horse" execution vector.
+### C. Asymmetric Compute Calibration (Formerly "Sun Bin")
+A resource-management algorithm preventing the exhaustion of the operator's primary cognitive nodes against low-effort or automated inputs. It enforces a strict compute-to-need ratio:
+*   *High-Capacity Node vs. Low-Friction Vector* $\rightarrow$ Deploy Automated Proxies (Standardized rubrics, boilerplate routing, default-fail gates).
+*   *High-Capacity Node vs. High-Friction Vector* $\rightarrow$ Deploy Primary Cognitive Bandwidth (Deep Socratic engagement, high-resolution processing).
+*   *Invariant:* Never deploy Tier 0/Tier 1 processing power to resolve a Tier 3 administrative warning.
 
 ## 5. Node Topology & Prompt Manifest
 
