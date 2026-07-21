@@ -1,3 +1,11 @@
+---
+document_version: "1.1"
+last_updated_date: "2026-07-21"
+document_monotonicity: "REQUIRED - Ensure document_version and timestamps strictly increment on every update. Reject regressions."
+heuristic_versioning: "REQUIRED - Heuristic versions (vX.Y) in the headings must ALWAYS be incremented INDEPENDENTLY."
+anti_cwa_cardinal_rule: "ALWAYS ASK, NEVER INFER. Do not hallucinate state, task completion, or implicit preferences."
+routing_clearance: "PUBLIC REFERENCE - APPROVED FOR ALL NODES"
+---
 # The Sovereign Stack (Phial Edition)
 
 **Version:** 1.0.0-open
@@ -57,25 +65,39 @@ The system can be deployed across commercial LLM workspaces or self-hosted open-
 
 | Node & Workspace Template | Tier | Base Model Class | Description |
 | :--- | :--- | :--- | :--- |
-| 📐 [\[LLM\]\[Sov\] Meta-Architect](platforms/tier_0/meta_architect/instructions.md)<br>↳ [Live Workspace](#) | 0 | Unconstrained / Flagship | Strategic planning sandbox. Exempt from Odysseus lock-down. Used for stack design and R&D. |
-| 📡 [\[LLM\]\[Sov\] Executive Sensor Node](platforms/tier_1/executive_sensor/instructions.md)<br>↳ [Live Workspace](#) | 1 | High-Context / Fast | Tier 1 Context Engine. Telemetry ingestion, Odysseus intercept, Herculean threat detection. Front-line intercept shield. |
-| ⚙️ [\[LLM\]\[Sov\] Orchestrator](platforms/tier_1/orchestrator/instructions.md)<br>↳ [Live Workspace](#) | 1 | Reasoning / Flagship | Sovereign Administrative Router. Enforces routing constraints and manages `BLACKBOARD.md` capacity reallocation. |
-| 🏗️ [\[LLM\]\[Sov\] Spec Compiler](platforms/tier_1/spec_compiler/instructions.md)<br>↳ [Live Workspace](#) | 1 | Heavy Coding | Technical Architecture Layer. Generates canonical specs for infrastructure and stack propagation. |
-| 🧱 [\[LLM\]\[Sov\] Implementation Agent](platforms/tier_1/implementation_agent/instructions.md)<br>↳ [Live Workspace](#) | 1 | Heavy Coding | Direct code implementation, repo management, and Artifact Gate enforcement. |
-| 🔍 [\[LLM\]\[Sov\] Code Auditor](platforms/tier_1/code_auditor/instructions.md)<br>↳ [Live Workspace](#) | 1 | Deep Analysis | Sovereign Integrity Layer. Audits implementations against required invariants (e.g., Anonymizer boundaries). |
-| 🤨 [\[LLM\]\[Sov\] Trust Boundary Auditor](platforms/tier_1/trust_boundary/instructions.md)<br>↳ [Live Workspace](#) | 1 | Default-Skeptical | Zero-trust triage node. Evaluates cold contacts and detects performative compliance or manipulative phrasing. |
-| 📚 [\[LLM\]\[Sov\] Operations Stack](platforms/tier_2/operations_stack/instructions.md)<br>↳ [Live Workspace](#) | 2 | Standard/Instruction | Domain-specific operations (e.g., course grading, product management) and telemetry routing. |
-| 🦾 [\[LLM\]\[Sov\] Exoskeleton](platforms/tier_2/exoskeleton/instructions.md)<br>↳ [Live Workspace](#) | 2 | Strict Instruction | Structural enforcement node. Converts subordinate/collaborator relationships into artifact-gated state machines. |
-| 🧭 [\[LLM\]\[Sov\] Mentoring & Advising](platforms/tier_2/mentoring/instructions.md)<br>↳ [Live Workspace](#) | 2 | Socratic | Synchronous policy gradient framework for subordinates. Focuses on causal model building, not spoon-feeding. |
+| Node & Workspace Template | Tier | Base Model Class | Description |
+| :--- | :--- | :--- | :--- |
+| 📐 [\[LLM\]\[Sov\] Meta-Architect](platforms/tier_0/meta_architect/instructions.md)<br>↳ [Live Workspace](#) | 0 | Flagship / Unconstrained | Strategic planning sandbox. Exempt from Odysseus lock-down. Used for stack design and consulting R&D. |
+| 🎛️ [\[LLM\]\[Sov\] Orchestrator](platforms/tier_1/orchestrator/instructions.md)<br>↳ [Live Workspace](#) | 1 | Flagship / Reasoning | Tier 1 Executive Context Engine. Telemetry ingestion, Odysseus intercept, and core execution tracking. |
+| ⚙️ [\[LLM\]\[Sov\] Code Dispatcher](platforms/tier_2/code_dispatcher/instructions.md)<br>↳ [Live Workspace](#) | 2 | Heavy Coding Router | Tier 2 coding router. Manages the developer substack (Spec, Impl, Audit) via autonomous routing mode. |
+| 🏗️ [\[LLM\]\[Sov\] Spec Compiler](platforms/tier_2/spec_compiler/instructions.md)<br>↳ [Live Workspace](#) | 2 | Heavy Coding | Technical Architecture Layer. Generates canonical specs for infrastructure and stack propagation. |
+| 🧱 [\[LLM\]\[Sov\] Implementation Agent](platforms/tier_2/implementation_agent/instructions.md)<br>↳ [Live Workspace](#) | 2 | Heavy Coding | Direct code implementation, repository management, and Artifact Gate enforcement. |
+| 🔍 [\[LLM\]\[Sov\] Code Auditor](platforms/tier_2/code_auditor/instructions.md)<br>↳ [Live Workspace](#) | 2 | Deep Analysis | Sovereign Integrity Layer. Audits implementations against required stack invariants. |
+| 🤨 [\[LLM\]\[Sov\] Trust Boundary Auditor](platforms/tier_1/trust_boundary_auditor/instructions.md)<br>↳ [Live Workspace](#) | 1 | Default-Skeptical | Zero-trust triage node. Evaluates cold contacts and detects performative compliance. |
+| 🗑️ [\[LLM\]\[Sov\] Payload Stripper](platforms/tier_2/payload_stripper/instructions.md)<br>↳ [Live Workspace](#) | 2 | Narrative Sanitizer | Tier 2 narrative sanitizer and unfiltered telemetry parser. |
+| 🚚 [\[LLM\]\[Sov\] State Machine Router](platforms/tier_2/state_machine_router/instructions.md)<br>↳ [Live Workspace](#) | 2 | Temporal Router | Tier 2 IssueOps Enforcer & Temporal Router. |
+| ⚖️ [\[LLM\]\[Sov\] Artifact Auto-Triage](platforms/tier_2/artifact_auto_triage/instructions.md)<br>↳ [Live Workspace](#) | 2 | PR Validator | Tier 2 Pull Request Validator & baseline execution gate. |
+| 🖥️ [\[LLM\]\[Sov\] Executive Sensor Node](platforms/tier_3/executive_sensor_node/instructions.md)<br>↳ [Local Daemon](#) | 3 | Fast / Aggregator | Tier 3 Global State Aggregator. |
+| 📚 [\[LLM\]\[Sov\] Operations Stack](platforms/tier_2/operations_stack/instructions.md)<br>↳ [Live Workspace](#) | 2 | Standard / Instruction | Domain-specific operations (e.g., grading, project management) and telemetry routing. |
+| 🦾 [\[LLM\]\[Sov\] Exoskeleton](platforms/tier_2/exoskeleton/instructions.md)<br>↳ [Live Workspace](#) | 2 | Strict Instruction | Structural enforcement node. Converts subordinate relationships into artifact-gated state machines. |
+| 🧭 [\[LLM\]\[Sov\] Mentoring & Advising](platforms/tier_2/mentoring/instructions.md)<br>↳ [Live Workspace](#) | 2 | Socratic | Synchronous policy gradient framework for subordinates. Focuses on causal model building. |
 | 🫱🏽‍🫲🏿 [\[LLM\]\[Sov\] Networking Router](platforms/tier_2/networking_router/instructions.md)<br>↳ [Live Workspace](#) | 2 | Diplomatic | Inter-departmental networking, external communications, and petition routing. |
 | 🪷 [\[LLM\]\[Sov\] Serenity Now](platforms/tier_2/serenity_now/instructions.md)<br>↳ [Live Workspace](#) | 2 | Clinical / Analytical | Clinical systems analyst for psychological boundary preservation and institutional friction analysis. |
-| 🔏 [\[LLM\]\[Sov\] Data Anonymizer](platforms/bridge/data_anonymizer/instructions.md)<br>↳ [Live Workspace](#) | 2 | Deterministic Code | Enterprise bridge node. Sanitizes inbound telemetry (ROT-1 + Cryptographic Hash) before exposing to commercial APIs. |
-| 📖 [\[LLM\]\[Sov\] Research Architect](platforms/tier_2/research_architect/instructions.md)<br>↳ [Live Workspace](#) | 2 | Search/Retrieval | Ontology Sandbox and Agentic Systems Lab for deep-dive literature/documentation review. |
-| 👑 [\[Self-Hosted\]\[Sov\] Sovereign Core](platforms/self_hosted/sovereign_core/README.md)<br>↳ [Local Infrastructure](#) | — | Multi-Modal UI | Base open-weight fallback environment mapping to local compute zones. |
+| 🌉 [\[Enterprise\]\[Sov\] SSO Wiki Editor](platforms/bridge/sso_wiki_editor/instructions.md)<br>↳ [Enterprise Workspace](#) | 2 | Enterprise / Secure | Secure Enterprise bridge node. Bypasses hostile UX via secure markdown formatting. |
+| 🧵 [\[Enterprise\]\[Sov\] Secure Comms Formatter](platforms/bridge/secure_comms_formatter/instructions.md)<br>↳ [Enterprise Workspace](#) | 2 | Enterprise / Secure | Secure Enterprise bridge node. Formats secure input for institutional compliance. |
+| 👁️ [\[Enterprise\]\[Sov\] Secure OCR Transcriber](platforms/bridge/secure_ocr/instructions.md)<br>↳ [Enterprise Workspace](#) | 2 | Enterprise / Secure | Secure Enterprise bridge node. Handles sensitive institutional OCR transcription tasks. |
+| 🔏 [\[Enterprise\]\[Sov\] Data Anonymizer](platforms/bridge/data_anonymizer/instructions.md)<br>↳ [Enterprise Workspace](#) | 2 | Enterprise / Secure | Secure Enterprise bridge node. Sanitizes sensitive telemetry prior to external routing. |
+| 🗜️ [\[Enterprise\]\[Sov\] Sensitive Transcript Profiler](platforms/bridge/transcript_profiler/instructions.md)<br>↳ [Enterprise Workspace](#) | 2 | Enterprise / Secure | Secure text dump processor. Safe for sensitive PII and research transcripts. |
+| 📖 [\[Search\]\[Sov\] Research Lifecycle Coordinator](platforms/tier_2/research_lifecycle/instructions.md)<br>↳ [Live Workspace](#) | 2 | Search / Retrieval | Ontology Sandbox and Agentic Systems Lab for deep-dive literature review. |
+| 📋 [\[Search\]\[Sov\] Systems Engineering Auditor](platforms/tier_2/systems_engineering/instructions.md)<br>↳ [Live Workspace](#) | 2 | Search / Retrieval | Dedicated to technical literature research, API docs analysis, and architectural evaluation. |
+| 💡 [\[Search\]\[Sov\] Strategic Brainstorming](platforms/tier_2/strategic_brainstorming/instructions.md)<br>↳ [Live Workspace](#) | 2 | Search / Retrieval | Ideation and synthesis mapped directly to deterministic extraction pipelines. |
+| ⚡ [\[Sandbox\]\[Sov\] Agile Sandbox Reasoner](platforms/tier_2/agile_sandbox/instructions.md)<br>↳ [Live Workspace](#) | 2 | Agile / Fast | Agile Sandbox Layer. Fast, non-safety-critical text transformations and low-friction logic execution. |
+| 🛡️ [\[Sandbox\]\[Sov\] Context Spillover Buffer](platforms/tier_2/context_buffer/instructions.md)<br>↳ [Live Workspace](#) | 2 | Agile / Fast | Staging buffer for chunking, structural stripping, and staging non-sensitive payloads. |
+| 👑 [\[Self-Hosted\]\[Sov\] Sovereign Core](platforms/self_hosted/sovereign_core/README.md)<br>↳ [Local Infrastructure](#) | — | Multi-Modal UI | Open-weight self-hosted core. Multi-zone compute topology. Model stack M=10. |
 | 🧠 [\[Self-Hosted\]\[Sov\] General Reasoning](platforms/self_hosted/general_reasoning/instructions.md)<br>↳ [Local Endpoint](#) | — | CoT / DeepSeek-R1 | Primary reasoning engine. Sovereign Chain-of-Thought layer. |
-| 🛎️ [\[Self-Hosted\]\[Sov\] General Assistant](platforms/self_hosted/general_assistant/instructions.md)<br>↳ [Local Endpoint](#) | — | Llama 3/Instruction | General assistant, writing layer, and fast telemetry parsing. |
+| 🛎️ [\[Self-Hosted\]\[Sov\] General Assistant](platforms/self_hosted/general_assistant/instructions.md)<br>↳ [Local Endpoint](#) | — | Llama 3 / Instruct | General assistant, writing layer, and fast telemetry parsing. |
 | 💻 [\[Self-Hosted\]\[Sov\] Coding Math](platforms/self_hosted/coding_math/instructions.md)<br>↳ [Local Endpoint](#) | — | Qwen-Coder | Hardcore coding, algorithmic math, REPL, and local agent tool use. |
-| 🚦 [\[Self-Hosted\]\[Sov\] Agent Routing](platforms/self_hosted/agent_routing/instructions.md)<br>↳ [Local Endpoint](#) | — | Mixtral / MoE | High-throughput parsing and request routing at scale. |
+| 🚦 [\[Self-Hosted\]\[Sov\] Agent Routing](platforms/self_hosted/agent_routing/instructions.md)<br>↳ [Local Endpoint](#) | — | Mixtral / MoE | Agent routing and high-throughput parsing. Orchestrator equivalent at scale. |
 | 🖼️ [\[Self-Hosted\]\[Sov\] Image Gen](platforms/self_hosted/image_gen/instructions.md)<br>↳ [Local Endpoint](#) | — | Flux / Diffusion | Image generation. Local text rendering and visual asset creation. |
 | 🎙️ [\[Self-Hosted\]\[Sov\] Speech Rec](platforms/self_hosted/speech_rec/instructions.md)<br>↳ [Local Endpoint](#) | — | Whisper | Speech recognition and batch audio transcripts for frictionless telemetry ingestion. |
 | 🎞️ [\[Self-Hosted\]\[Sov\] Video Gen](platforms/self_hosted/video_gen/instructions.md)<br>↳ [Local Endpoint](#) | — | Wan / Diffusion | Video generation and sequence modeling. |
