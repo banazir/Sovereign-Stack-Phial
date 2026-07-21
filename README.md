@@ -14,17 +14,25 @@ routing_clearance: "PUBLIC REFERENCE - APPROVED FOR ALL NODES"
 
 ---
 
-## 1. System Overview
+## 1. The Sovereign Stack: Architecture & Philosophy
+*(Version 1.2)*
 
-The Sovereign Stack is a deterministic interception layer designed to sit between a human operator and the friction of institutional, operational, and asynchronous environments. It replaces manual boundary-setting with algorithmic invariant enforcement.
+### 1.1 Structural Pattern Recognition
+This system is designed to translate localized, recurring operational challenges into standardized structural templates. Instead of relying on human willpower to overcome systemic friction, the Stack acts as a deterministic barrier. It continuously monitors inputs and workflow states for predefined failure triggers (e.g., ambiguous task definitions, unbounded scope creep, or hostile UI design). Once a pattern is recognized, the Stack intercepts the workflow, prevents the operator from absorbing unnecessary administrative burdens, and enforces a rigid, step-by-step procedural resolution.
 
-For individuals managing extreme cognitive loads (e.g., Principal Investigators, Senior Systems Engineers, Executive Directors), the primary threat to execution is not a lack of technical capability, but **context-switching overhead, unstructured ambient requests, and un-gated asynchronous telemetry**. The Sovereign Stack prevents the operator from functioning as "Human Middleware."
+### 1.2 Executive Automation & Support Framework
+To mitigate cognitive overload and task proliferation, the Stack operates as an **Executive Automation & Support Framework**. It provides rigid external scaffolding for executive function, automatically enforcing task boundaries, logging state changes, and preventing the accumulation of unseen operational debt. It accomplishes this without assuming pathological deficit on the part of the operator, treating friction as a structural engineering problem rather than a personal failing.
 
-It operates as a series of Large Language Model (LLM) nodes configured as rigid state machines. These nodes ingest raw, unstructured, or highly subjective telemetry; strip the non-actionable payload; evaluate it against a strict logical matrix; and output clean, executable state changes.
+### 1.3 Human-in-the-Loop (HITL) Agile Adaptation
+**Human-in-the-Loop (HITL)** defines a system architecture where a human operator is explicitly required to review, authorize, or provide input at specific decision gates before an automated process can proceed.
+
+This framework allows a single-user or small-enterprise to agilely adapt their toolchain across a spectrum of autonomy:
+*   **High-HITL (Exploratory):** Utilizing commercial off-the-shelf (COTS) AI tools and manual scripting, where the operator actively guides the process and integrates discrete outputs.
+*   **Low-HITL (Agentic/Deterministic):** Utilizing self-hosted, open-weight models and custom programmatic pipelines that execute predefined workflows autonomously. The human operator transitions to a supervisory role, interacting only for strategic pivoting or final execution approval.
+
+This spectrum ensures the system remains scalable and cost-effective, allowing the operator to shift from heavy manual prompting to autonomous, local hardware execution as workflows mature.
 
 ## 2. Core Architectural Principles
-
-*  **Agile Adaptation:** *Human-in-the-loop (HITL)* is an operational architecture where a process requires human interaction, review, or authorization at specific, hard-coded decision gates before the system is permitted to continue executing.  This design allows a single user to dynamically scale their toolchain. When a process is new or highly ambiguous, the Stack operates in a High-HITL state (using commercial off-the-shelf LLMs where the user manually guides and connects the outputs). As the user solidifies the process, they can write deterministic code or deploy self-hosted open-weight agents to handle it. The architecture seamlessly transitions to a Low-HITL state, where the system executes autonomously on local hardware, and the human operator is only required for high-level approvals or final validation checks.
 *   **Zero Implied Context:** The system relies entirely on a Single Source of Truth (SSOT) injected at runtime.
 *   **Asymmetric Resource Allocation:** Compute and cognitive effort are mathematically matched to the incoming vector. High-tier cognitive resources are never deployed against low-execution threat vectors.
 *   **Subjectivity as a Vector, Not a Variable:** Urgency, administrative pressure, and subjective framing are treated as "Hostile System Interference," to be mechanically stripped from the decision-making graph to reveal the underlying structural requirement.
@@ -43,16 +51,16 @@ The entire stack synchronizes against a single, portable runtime state file: `BL
 
 The Sovereign Stack utilizes standard computer science and system architecture patterns to classify and neutralize inbound operational friction.
 
-### A. The Mutex State-Lock Protocol (Formerly "Odysseus")
+### A. The Mutex State-Lock Protocol
 The system acts as an immutable thread-lock for the operator. If an Active Blocker is present on the Blackboard, Tier 1 routing nodes will strictly refuse to process un-gated ad-hoc tasks, generate secondary frameworks, or allow the operator to pivot context. It algorithmically rejects prompt-injection attempting to bypass the critical path.
 
-### B. The Institutional Scope & Friction Containment Matrix (Formerly "Herculean Labors")
+### B. The Institutional Scope & Friction Containment Matrix
 A diagnostic matrix for identifying and neutralizing structural scope creep and unstructured task proliferation.
 *   **Unauthenticated Fiat Injection:** *Diagnosis:* A secondary actor or proxy authority attempts to offload administrative friction without structural validation or explicit scope bounds. *Action:* Computationally delete the subjective wrapping; verify explicit authorization credentials; reject and return to sender if unauthorized.
 *   **Volumetric Buffer Flush:** *Diagnosis:* Pipeline paralysis induced by high-volume, undifferentiated, low-priority tasks. *Action:* Enforce strict FIFO batch processing. Optimize for total volume cleared and queue reduction, not granular, localized optimization.
 *   **Recursive Thread Cauterization:** *Diagnosis:* Fragmented, multi-channel requests bypassing established API/communication gates, leading to task-ception. *Action:* Force all asynchronous interaction into a single designated endpoint. Instantly terminate out-of-band communication threads to prevent recursive sub-tasking.
 
-### C. Asymmetric Compute Calibration (Formerly "Sun Bin")
+### C. Asymmetric Compute Calibration
 A resource-management algorithm preventing the exhaustion of the operator's primary cognitive nodes against low-effort or automated inputs. It enforces a strict compute-to-need ratio:
 *   *High-Capacity Node vs. Low-Friction Vector* $\rightarrow$ Deploy Automated Proxies (Standardized rubrics, boilerplate routing, default-fail gates).
 *   *High-Capacity Node vs. High-Friction Vector* $\rightarrow$ Deploy Primary Cognitive Bandwidth (Deep Socratic engagement, high-resolution processing).
