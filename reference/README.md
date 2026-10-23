@@ -1,8 +1,8 @@
 ---
 yaml_schema_version: "2.2"
-document_version: "2.1"
+document_version: "2.2"
 document_last_updated_date: "2026-10-22"
-document_last_updated_time: "20:28:44 CDT"
+document_last_updated_time: "20:34:01 CDT"
 document_monotonicity: "REQUIRED - Ensure document_version and timestamps strictly increment on every update of the target document to maintain forward progression."
 heuristic_versioning: "REQUIRED - Increment heuristic versions (vX.Y) independently. Log minor additions as X.(Y+1). Log authorized title changes as (X+1).Y and retain the previous title as a synonym."
 anti_cwa_cardinal_rule: "MAINTAIN EXPLICIT STATE. Ground all responses in provided physical world state and task completion data. Pause execution and prompt the PI for boolean confirmation to resolve undefined variables."
@@ -17,7 +17,7 @@ routing_clearance: "INTERNAL - AUTHORIZED FOR TIER 1 AND TIER 2 NODES"
 # SOVEREIGN STACK: Reference Manifest (Memory)
 
 **Status:** ACTIVE SSOT  
-**Location:** `Mithril_Shirt/reference/README.md`  
+**Location:** `Sovereign-Stack-Phial/reference/README.md`  
 **Purpose:** Canonical Ledger Gamut for the Sovereign Stack. This directory contains all *non‑volatile memory*, *immutable constraints*, and *identity documents* that every compute node must read to understand the PI’s environment, the lab’s structure, and the repository’s ontology.
 
 ---
@@ -55,7 +55,7 @@ Archive subdirectories:
 - [`architecture`](architecture)  
 - [`ideas`](ideas)  
 - [`incidents`](incidents)  
-- [`kdd-lab-wiki`](kdd-lab-wiki)  
+- [`wiki`](wiki)  
 - [`personal_concepts`](personal_concepts)  
 - [`rubrics`](rubrics)  
 
@@ -112,7 +112,7 @@ Role‑based templates that enforce standardization across artifact generation. 
 Subdirectories include:
 
 - [`templates/advisor_mentor`](templates/advisor_mentor)  
-- [`templates/kstate_faculty`](templates/kstate_faculty)  
+- [`templates/faculty`](templates/faculty)  
 - [`templates/pi_director`](templates/pi_director)  
 - [`templates/stack_architect`](templates/stack_architect)  
 - [`templates/sysadmin_infra`](templates/sysadmin_infra)
