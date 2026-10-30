@@ -1,6 +1,6 @@
 ---
 yaml_schema_version: "1.0"
-document_version: "1.0"
+document_version: "1.1"
 document_last_updated_date: "2026-10-30"
 document_last_updated_time: "00:04 CDT"
 document_monotonicity: "REQUIRED - Ensure document_version and timestamps strictly increment on every update of the target document. Reject regressions."
@@ -10,7 +10,7 @@ routing_clearance: "GENERAL - CLEARED FOR PUBLIC RELEASE"
 
 # SOVEREIGN STACK (PHIAL): SPILLOVER ROUTING MATRIX
 **Status:** ACTIVE
-**Location:** `reference/architecture/stack_architecture.md`  
+**Location:** `reference/architecture/stack_architecture_public.md`  
 **Purpose:** Browsable directory structure and file map for the `Sovereign-Stack-Phial` Single Source of Truth (SSOT) repository. This file serves as the canonical topological map for the developer, all users, and automated nodes to locate administrative divisions, templates, schemas, and meeting records.
 
 ---
