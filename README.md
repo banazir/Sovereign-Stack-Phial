@@ -1,11 +1,13 @@
 ---
+yaml_schema_version: "1.1"
 document_version: "1.2"
-last_updated_date: "2026-07-21"
-document_monotonicity: "REQUIRED - Ensure document_version and timestamps strictly increment on every update. Reject regressions."
-heuristic_versioning: "REQUIRED - Heuristic versions (vX.Y) in the headings must ALWAYS be incremented INDEPENDENTLY."
-anti_cwa_cardinal_rule: "ALWAYS ASK, NEVER INFER. Do not hallucinate state, task completion, or implicit preferences."
-routing_clearance: "PUBLIC REFERENCE - APPROVED FOR ALL NODES"
+document_last_updated_date: "2026-10-30"
+document_last_updated_time: "00:49 CDT"
+document_monotonicity: "REQUIRED - Ensure document_version and timestamps strictly increment on every update of the target document. Reject regressions."
+anti_cwa_cardinal_rule: "ALWAYS ASK, NEVER INFER. Do not hallucinate physical world state, task completion, or implicit preferences. If a state variable is non-inferrable, pause execution and prompt the user for explicit boolean confirmation."
+routing_clearance: "GENERAL - CLEARED FOR PUBLIC RELEASE"
 ---
+
 # The Sovereign Stack (Phial Edition)
 
 **Version:** 1.2-open
